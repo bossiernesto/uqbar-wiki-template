@@ -1,5 +1,5 @@
 {
-  "name": "wiki.template",
+  "name": "uqbar.wiki.template",
   "version": "0.0.0",
   "homepage": "https://github.com/matthiasbeyer/wiki.template",
   "authors": [
@@ -24,5 +24,13 @@
     "normalize-css": "3.0.3",
     "picturefill": "2.3.1",
     "webfontloader": "1.6.6"
-  }
+  },
+  "main": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
