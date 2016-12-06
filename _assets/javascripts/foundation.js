@@ -43,20 +43,10 @@ requirejs.config({
 });
 
 // Add any foundation modules you require to the end of this line.
-require(['jquery', 'foundation'], function($) {
+require(['jquery', 'foundation'],
 
-    // Foundation JavaScript
-    // Documentation can be found at: http://foundation.zurb.com/docs
-    $(document).load(function() {
-        $(this).foundation({
-            orbit: {
-                animation: 'slide',
-                timer_speed: 1000,
-                pause_on_hover: true,
-                animation_speed: 500,
-                navigation_arrows: true,
-                bullets: false
-            }
-        });
+    function ($) {
+
+        $(document).foundation();
+
     });
-});
