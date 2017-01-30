@@ -11,7 +11,8 @@ layout: body
 </div>
 
 <div id="article_metadata">
-    <p>Latest update on {{ page.git.last_commit.commit_date | date: '%B %d, %Y' }} by {{page.git.last_commit.commit_name}}</p>
+    <p>Latest update on {{ page.git.last_commit.commit_date | date: '%B %d, %Y' }} by
+        {{page.git.last_commit.commit_name}}</p>
 
     <ul class="accordion" data-accordion>
         <li class="accordion-navigation">
@@ -63,7 +64,7 @@ layout: body
                     </div>
                 </div>
 
-                <table>
+                <table style="margin-left: 15px;">
                     <thead>
                     <tr>
                         <th>Hash</th>
@@ -77,9 +78,11 @@ layout: body
                     <tbody>
                     {% for commit in page.git.commits %}
                     <tr>
-                        {% for field in commit %}
-                        <td>{{ field }}</td>
-                        {% endfor %}
+                        <td>{{ commit["short_sha"] }}</td>
+                        <td>{{ commit["commit_date"] }}</td>
+                        <td>{{ commit["commit_name"] }}</td>
+                        <td>{{ commit["commit_email"] }}</td>
+                        <td>{{ commit["message"] }}</td>
                     </tr>
                     {% endfor %}
                     </tbody>

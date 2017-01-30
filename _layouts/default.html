@@ -10,6 +10,11 @@
     {% include favicon.html %}
     <link type="text/plain" rel="author" href="{{ site.baseurl }}/humans.txt"/>
     {% stylesheet app %}
+    <style>
+        .navbar {
+            -webkit-backface-visibility: hidden;
+        }
+    </style>
 </head>
 
 <body>
@@ -55,9 +60,9 @@
 
 </nav>
 
-<div class="column small-0 medium-2 large-2 sidebar">
+<div class="column small-0 medium-2 large-2 sidebar" style="margin-top: 10px;">
     <div class="rows small-0 medium-2 large-2">
-        Space for an image
+        <img src="/img/uqbar_logo.png">
     </div>
 
     <ul class="rows small-12 medium-10 large-10 side-nav stack button-group" title="Link List" role="menu">

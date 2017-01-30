@@ -7,7 +7,7 @@ description: "Wiki jekyll engine for github-pages"
 markdown: kramdown
 highlighter: rouge
 github_username:
-disqus:
+disqus: tadp-wiki
 
 # Uncomment below to enable pagination.
 paginate: 10
