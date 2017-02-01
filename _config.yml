@@ -63,5 +63,7 @@ cdn:
 keywords: []
 
 toc-gen:
-    include-tocnumber: false
+    include-tocnumber: true
 
+#Categories for wiki pages
+categories: []

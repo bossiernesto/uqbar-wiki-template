@@ -1,6 +1,6 @@
 ---
 layout: article
-title:
+title: Beginners guide
 ---
 
 # Beginners guide
