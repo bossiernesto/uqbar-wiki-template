@@ -1,6 +1,6 @@
 ---
 layout: article
-title:
+title: The Wiki
 ---
 
 {% wiki_section About this wiki %}

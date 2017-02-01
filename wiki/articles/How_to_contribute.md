@@ -1,6 +1,6 @@
 ---
 layout: article
-title:
+title: How to contribute
 categories: []
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title:
+title: Installation Guide
 ---
 
 # Installation
